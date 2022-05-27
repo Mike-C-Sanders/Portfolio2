@@ -1,12 +1,15 @@
 import Profile from "./Components/Home/Profile"
+import {IconContext} from "react-icons"
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Profile/>
-    </div>
+    <IconContext.Provider value ={{ color: "cornflowerblue"}}>
+      <div className="App">
+        <Profile/>
+      </div>
+    </IconContext.Provider>
   );
 }
 
