@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Profile from "./Components/Profile/Profile"
 import About from "./Components/AboutMe/About"
 import Contact from "./Components/ContactMe/Contact"
+import Projects from "./Components/Projects/Projects"
 import NavTabs from './Components/NavTabs/NavTabs';
 import {IconContext} from "react-icons"
 
@@ -18,6 +19,9 @@ const renderPage = () => {
   }
   if (currentPage === 'About') {
     return <About />;
+  }
+  if (currentPage === 'Projects') {
+    return <Projects />;
   }
   return <Contact />;
 };
