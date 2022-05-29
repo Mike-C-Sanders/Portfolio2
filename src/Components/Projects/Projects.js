@@ -1,34 +1,38 @@
 import React from 'react'
-import myPhoto from '../../assets/Images/myphoto.jpg'
+import eventPlanner from '../../assets/Images/Projects/EventPlanner.JPG'
+import movieTracker from '../../assets/Images/Projects/MovieTracker.png'
+import textEditor from '../../assets/Images/Projects/TextEditor.JPG'
+import employeeTracker from '../../assets/Images/Projects/EmployeeTracker.gif'
 import noteTaker from '../../assets/Images/Projects/NoteTaker.png'
+import codeQuiz from '../../assets/Images/Projects/CodeQuiz.png'
 import Project from '../Project/Project'
 export default function Projects () {
     //project object array, which will be looped through
     const myProjects = [
         {
             title: "Event Planner",
-            image: myPhoto,
-            github: "githublink",
-            site: "live site link"
+            image: eventPlanner,
+            github: "https://github.com/Morganbb104/Event_Planner_project2",
+            site: "https://obscure-chamber-98928.herokuapp.com/"
         },
         {
             title: "Movie Tracker",
-            image: myPhoto,
-            github: "githublink",
-            site: "live site link"
+            image: movieTracker,
+            github: "https://github.com/Mike-C-Sanders/Movie-Tracker",
+            site: "https://mike-c-sanders.github.io/Movie-Tracker/"
         },
         {
             title: "Text Editor",
-            image: myPhoto,
-            github: "githublink",
-            site: "live site link"
+            image: textEditor,
+            github: "https://github.com/Mike-C-Sanders/TextEditor",
+            site: "https://mikes-text-editor.herokuapp.com/"
         },
         {
             //GIF....
             title: "Employee Tracker",
-            image: myPhoto,
+            image: employeeTracker,
             github: "https://github.com/Mike-C-Sanders/EmployeeTracker",
-            site: "live site link"
+            site: "https://youtu.be/rREtaYCCvx0"
         },
         {
             title: "Note Taker",
@@ -38,9 +42,9 @@ export default function Projects () {
         },
         {
             title: "Code Quiz",
-            image: myPhoto,
-            github: "githublink",
-            site: "live site link"
+            image: codeQuiz,
+            github: "https://github.com/Mike-C-Sanders/CodeQuiz",
+            site: "https://mike-c-sanders.github.io/CodeQuiz/"
         }
     ];
 
