@@ -13,7 +13,7 @@ export default function Projects () {
 
     return (
         <div>
-            <h1>My Projects</h1>
+            <h2>My Projects</h2>
             {
                 myProjects.map( project => (
                     <Project project={project}/>

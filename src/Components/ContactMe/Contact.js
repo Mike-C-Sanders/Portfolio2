@@ -49,19 +49,19 @@ export default function Contact() {
     <div>
       <p>Hello {fullName}</p>
       <form className="form">
+          <input
+            value={fullName}
+            name="fullName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Full Name"
+          />
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-        />
-        <input
-          value={fullName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
         />
 
         <button type="button" onClick={handleFormSubmit}>
