@@ -35,20 +35,22 @@ export default function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if any of the other text fields are empty.
-    if (!validateEmail(email) || !fullName || !message) {
+    if (!validateEmail(email)) {
       setErrorMessage("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }else if(!fullName ){
         setErrorMessage("Full Name is required");
-        
+        return;
+
     }else if(!message){
-        setErrorMessage("Please enter a message. Conetext is important");
+        setErrorMessage("Please enter a message. Context is important");
+        return;
 
     }
 
-    alert(`Hello ${fullName}`);
+    alert(`Thank you for contacting me ${fullName}. I'll respond to you directly within 2 business days.`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setFullName("");
@@ -60,6 +62,7 @@ export default function Contact() {
       <h2>Contact Me</h2>
       <p>If you'd like to work with me or are interested in learning more about my background for a specific role, please send me a note through this form. </p>
       <form className="form">
+          <label for="fullName">Your Name:</label>
           <input
             value={fullName}
             name="fullName"
@@ -67,6 +70,7 @@ export default function Contact() {
             type="text"
             placeholder="Full Name"
           />
+          <label for="email">Your Email:</label>
         <input
           value={email}
           name="email"
@@ -74,6 +78,7 @@ export default function Contact() {
           type="email"
           placeholder="email"
         />
+          <label for="message">Message:</label>
         <input
           value={message}
           name="message"
