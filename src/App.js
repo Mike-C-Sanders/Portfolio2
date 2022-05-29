@@ -4,6 +4,7 @@ import About from "./Components/AboutMe/About"
 import Contact from "./Components/ContactMe/Contact"
 import Projects from "./Components/Projects/Projects"
 import NavTabs from './Components/NavTabs/NavTabs';
+import Footer from './Components/Footer/Footer'
 import {IconContext} from "react-icons"
 
 
@@ -33,6 +34,7 @@ const renderPage = () => {
         {/* NavTabs props pass in current page + set the current page when a page change occurs */}
         <NavTabs currentPage={currentPage} handlePageChange ={setCurrentPage}/>
         {renderPage()}
+        <Footer/>
       </div>
     </IconContext.Provider>
   );

@@ -1,7 +1,4 @@
 import React from 'react'
-//import the react icon library the 
-
-import {FaGithub, FaEnvelope} from 'react-icons/fa';
 import Typical from 'react-typical'
 
 export default function Profile() {
@@ -9,20 +6,7 @@ export default function Profile() {
         <div className='profile-container'>
             <div className='profile-parent'>
                 <div className='profile-details'>
-                    <div className='my-links'>
-                        
-                        <a href='#'>
-                            <i className='bi bi-github'></i>
-                        </a>
-                        <a href='https://github.com/Mike-C-Sanders'>
-                            <FaGithub/>
-                        </a>
-                        {/* envelope  */}
-                        <a href=''>
-                            <FaEnvelope/>
-                        </a>
-                        
-                    </div>
+                    
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
@@ -41,9 +25,9 @@ export default function Profile() {
                                     1000,
                                         "Full Stack Developer 💻",
                                     1000,
-                                        "MERN Stack Dev 😎",
+                                        "MERN Stack Developer 😎",
                                     1000,
-                                        "React/React Native Dev 📱",
+                                        "React Developer 📱",
                                     1000,
                                 ]}
                                 />
