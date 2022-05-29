@@ -10,6 +10,8 @@ export default function Contact() {
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState("");
   const [fullName, setFullName] = useState("");
+  //message that the individual will send via email.
+  const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
@@ -23,6 +25,8 @@ export default function Contact() {
       setEmail(inputValue);
     } else if (inputType === "userName") {
       setFullName(inputValue);
+    }else if(inputType === "message"){
+        setMessage(inputValue)
     }
   };
 
@@ -47,7 +51,8 @@ export default function Contact() {
 
   return (
     <div>
-      <p>Hello {fullName}</p>
+      <h2>Contact Me</h2>
+      <p>If you'd like to work with me or are interested in learning more about my background for a specific role, please send me a note through this form. </p>
       <form className="form">
           <input
             value={fullName}
@@ -62,6 +67,13 @@ export default function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+        />
+        <input
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Your message goes here."
         />
 
         <button type="button" onClick={handleFormSubmit}>
