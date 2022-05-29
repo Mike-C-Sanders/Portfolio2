@@ -1,10 +1,13 @@
 import React from 'react'
+//Project images/gifs
 import eventPlanner from '../../assets/Images/Projects/EventPlanner.JPG'
 import movieTracker from '../../assets/Images/Projects/MovieTracker.png'
 import textEditor from '../../assets/Images/Projects/TextEditor.JPG'
 import employeeTracker from '../../assets/Images/Projects/EmployeeTracker.gif'
 import noteTaker from '../../assets/Images/Projects/NoteTaker.png'
 import codeQuiz from '../../assets/Images/Projects/CodeQuiz.png'
+
+//individual project component
 import Project from '../Project/Project'
 export default function Projects () {
     //project object array, which will be looped through
