@@ -203,8 +203,11 @@ label{
   text-align: center;
   align-items: center;
 }
-.a-link{
-  
+.my-photo{
+  max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
 }
 
 #nav-text-color{

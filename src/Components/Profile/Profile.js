@@ -2,6 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 
 export default function Profile() {
+    
     return(
         <div className='profile-container'>
             <div className='profile-parent'>
@@ -38,10 +39,10 @@ export default function Profile() {
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
+                        {/* <button className='btn primary-btn' onClick={navToContact}>
                             {""}
                             Contact Me {" "}
-                        </button>
+                        </button> */}
                         <a href='Mike Sanders Resume - 2022_.pdf' download='Mike Sanders Resume - 2022_.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>

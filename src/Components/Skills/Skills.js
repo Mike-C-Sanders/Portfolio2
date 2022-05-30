@@ -38,7 +38,7 @@ export default function Skills () {
                         <li>Smartsheet</li>
                         <li>Salesforce</li>
                         <li>JIRA</li>
-                        <li>JIRA</li>
+                        
                     </ul>
                 </li>
             </ul>

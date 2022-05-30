@@ -5,7 +5,9 @@ import Contact from "./Components/ContactMe/Contact"
 import Projects from "./Components/Projects/Projects"
 import NavTabs from './Components/NavTabs/NavTabs';
 import Footer from './Components/Footer/Footer'
+import Skills from './Components/Skills/Skills'
 import {IconContext} from "react-icons"
+import { renderIntoDocument } from 'react-dom/test-utils';
 
 
 
@@ -23,6 +25,9 @@ const renderPage = () => {
   }
   if (currentPage === 'Projects') {
     return <Projects />;
+  }
+  if(currentPage === 'Skills'){
+    return <Skills/>
   }
   return <Contact />;
 };

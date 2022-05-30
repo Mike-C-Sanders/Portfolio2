@@ -49,6 +49,16 @@ export default function NavTabs ({ currentPage, handlePageChange }) {
               Projects
             </a>
           </li>
+          <li className="nav-item">
+            <a
+              href="#skills"
+              onClick={() => handlePageChange('Skills')}
+              
+              className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
+            >
+              Skills
+            </a>
+          </li>
         </ul>
       </div>
       </>
