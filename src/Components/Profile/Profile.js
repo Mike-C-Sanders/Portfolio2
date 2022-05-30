@@ -8,15 +8,15 @@ export default function Profile() {
                 <div className='profile-details'>
                     
                     <div className='profile-details-name'>
-                        <span className='primary-text'>
+                        <h1 className='primary-text'>
                             {" "}
                             Hello, I'm <span className='highlighted-text'>Mike</span>
-                        </span>
+                        </h1>
                     </div>
                     <div className='profile-details-role'>
                         <span className='primary-text'>
                             {" "}
-                            <h1>
+                            <h2>
                                 {" "}
                                 <Typical
                                     loop={Infinity}
@@ -31,7 +31,7 @@ export default function Profile() {
                                     1000,
                                 ]}
                                 />
-                            </h1>
+                            </h2>
                             <span className ='profile-role-tagline'>
                                 Full stack developer with leadership experience and technical know-how.
                             </span>

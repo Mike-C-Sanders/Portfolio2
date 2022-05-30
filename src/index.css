@@ -90,6 +90,10 @@ h1{
 h2{
   text-align: center;
 }
+h5{
+  text-align: center;
+  color: #284B63;
+}
 p{
   text-align: center;
 }
@@ -189,6 +193,18 @@ label{
   width: 100%;
   justify-content: space-evenly;
   margin-bottom: 25px;
+}
+
+.my-card{
+  border: 2px solid #353535 ;
+  box-shadow: 0 30px 40px rgba(0,0,0,.5);
+}
+.my-card a{
+  text-align: center;
+  align-items: center;
+}
+.a-link{
+  
 }
 
 #nav-text-color{

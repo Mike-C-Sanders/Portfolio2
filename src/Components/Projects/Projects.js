@@ -54,12 +54,15 @@ export default function Projects () {
     return (
         <div>
             <h2>My Projects</h2>
+            <div class="row">
+                
             {
                 myProjects.map( project => (
                     <Project project={project}/>
                 ))
                 
             }
+            </div>
         </div>
     )
 }
