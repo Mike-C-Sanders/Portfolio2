@@ -4,6 +4,7 @@
 
 My portfolio site using React. Easily find my projects, about me, how to contact me, and what skills I have to offer. The contact form is powered by EmailJS. Icons are generated from react-icons.
 
+![!pageImage](./src/assets/Images/frontpage.JPG)
 
 ## Table of Contents
     
