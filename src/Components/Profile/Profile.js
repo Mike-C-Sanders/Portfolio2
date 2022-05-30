@@ -44,7 +44,7 @@ export default function Profile() {
                             Contact Me {" "}
                         </button> */}
                         <a href='Mike Sanders Resume - 2022_.pdf' download='Mike Sanders Resume - 2022_.pdf'>
-                            <button className='btn highlighted-btn'>Get Resume</button>
+                            <button className='btn primary-btn'>Get Resume</button>
                         </a>
                     </div>
                 </div>

@@ -89,13 +89,14 @@ export default function Contact() {
             <div className="form-group">
 
                 <label for="message">Message:</label>
-                <input
+                <textarea
                 value={message}
                 name="message"
                 onChange={handleInputChange}
                 type="text"
                 placeholder="Your message goes here."
                 className="form-control"
+                rows ="3"
                 />
             </div>
 

@@ -9,7 +9,7 @@ export default function Project({project}) {
 
         <div className="card h-100"  >
               <h5 className="card-title">{project.title}</h5>
-            <img className= "card-img-top" src={project.image}></img>
+            <img className= "card-img-top" src={project.image} alt={project.key}></img>
             <div className="card-body text-center">
               <a href= {project.github}  className="card-link">Github Repo</a>
               <a href= {project.site} className="card-link ">Deployed Link</a>

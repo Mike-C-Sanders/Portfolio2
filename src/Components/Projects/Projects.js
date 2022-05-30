@@ -16,38 +16,44 @@ export default function Projects () {
             title: "Event Planner",
             image: eventPlanner,
             github: "https://github.com/Morganbb104/Event_Planner_project2",
-            site: "https://obscure-chamber-98928.herokuapp.com/"
+            site: "https://obscure-chamber-98928.herokuapp.com/",
+            key: "First slide"
         },
         {
             title: "Movie Tracker",
             image: movieTracker,
             github: "https://github.com/Mike-C-Sanders/Movie-Tracker",
-            site: "https://mike-c-sanders.github.io/Movie-Tracker/"
+            site: "https://mike-c-sanders.github.io/Movie-Tracker/",
+            key: "Second slide",
         },
         {
             title: "Text Editor",
             image: textEditor,
             github: "https://github.com/Mike-C-Sanders/TextEditor",
-            site: "https://mikes-text-editor.herokuapp.com/"
+            site: "https://mikes-text-editor.herokuapp.com/",
+            key: "Third slide",
         },
         {
             //GIF....
             title: "Employee Tracker",
             image: employeeTracker,
             github: "https://github.com/Mike-C-Sanders/EmployeeTracker",
-            site: "https://youtu.be/rREtaYCCvx0"
+            site: "https://youtu.be/rREtaYCCvx0",
+            key: "Fourth slide",
         },
         {
             title: "Note Taker",
             image: noteTaker,
             github: "https://github.com/Mike-C-Sanders/NoteTaker",
-            site: "https://git.heroku.com/boiling-hollows-65517.git"
+            site: "https://git.heroku.com/boiling-hollows-65517.git",
+            key: "Fifth slide",
         },
         {
             title: "Code Quiz",
             image: codeQuiz,
             github: "https://github.com/Mike-C-Sanders/CodeQuiz",
-            site: "https://mike-c-sanders.github.io/CodeQuiz/"
+            site: "https://mike-c-sanders.github.io/CodeQuiz/",
+            key: "Sixth slide",
         }
     ];
 

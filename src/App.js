@@ -34,7 +34,7 @@ const renderPage = () => {
 
   return (
     //Icon provider is used to add in icons such as github, social media, email, etc.
-    <IconContext.Provider value ={{ color: "white", size:"40px"}}>
+    <IconContext.Provider value ={{ color: "white", size:"40px", className:"hover-icon"}}>
       <div className="App">
         {/* NavTabs props pass in current page + set the current page when a page change occurs */}
         <NavTabs currentPage={currentPage} handlePageChange ={setCurrentPage}/>

@@ -120,7 +120,7 @@ label{
 }
 
 .primary-btn {
-  color: var(--white);
+  color: aliceblue;
   border: 2px solid aliceblue;
   font-size: 15px;
   background-color: #284B63;
@@ -187,12 +187,12 @@ label{
 
 .my-links{
   display: flex;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   justify-content: space-evenly;
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 .my-card{
@@ -208,6 +208,9 @@ label{
     height: auto;
     border-radius: 50%;
     
+}
+.hover-icon:hover{
+  color:#353535
 }
 
 #nav-text-color{
