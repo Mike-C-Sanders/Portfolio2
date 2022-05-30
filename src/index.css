@@ -181,6 +181,16 @@ label{
   text-align: center;
 }
 
+.my-links{
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
 #nav-text-color{
   color: aliceblue;
 }

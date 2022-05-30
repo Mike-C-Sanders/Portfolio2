@@ -4,10 +4,10 @@ import React from 'react'
 import {FaGithub, FaEnvelope, FaLinkedin} from 'react-icons/fa';
 
 export default function About () {
+    
     return (
         <>
-        <div className="align-bottom">
-            <p>Mike Sanders  2022</p>
+
             <div className='my-links'>
                         
                 <a href='https://www.linkedin.com/in/miksanders/'>
@@ -21,8 +21,9 @@ export default function About () {
                     <FaEnvelope />
                 </a>
                         
-                </div>
-        </div>
+                
+            </div>
+
         </>
     )
 }
