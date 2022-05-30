@@ -58,6 +58,8 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3C6E71 ;
+  color: aliceblue;
 }
 
 code {
@@ -108,7 +110,7 @@ body ::-webkit-scrollbar-thumb {
 } */
 
 .primary-btn:hover {
-  color: aliceblue;
+  color: #f0f8ff;
   border: 2px solid #ff5823;
   background-color: #1f2235;
 }
@@ -133,4 +135,26 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+.nav-color {
+  background-color: #284B63;
+}
+.nav-color li a{
+  color: aliceblue;
+  
+}
+.nav-color li a :hover{
+  color: aliceblue;
+  
+}
+
+.main-title{
+  background-color: #d9d9d9;
+  text-align: center;
+  color:#3C6E71;
+}
+
+#nav-text-color{
+  color: aliceblue;
 }

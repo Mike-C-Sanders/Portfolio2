@@ -1,10 +1,12 @@
 import React from 'react'
 
 export default function NavTabs ({ currentPage, handlePageChange }) {
-    return (
-      <>
-        <h1>Mike Sanders | Full Stack Developer</h1>
-        <ul className="nav nav-tabs">
+  return (
+    <>
+      <div className='nav-color'>
+    <h1 className='main-title'>Mike Sanders | Full Stack Developer</h1>
+
+        <ul className="nav nav-tabs justify-content-end" id='nav-text-color'>
           <li className="nav-item">
             <a
               href="#profile"
@@ -48,6 +50,7 @@ export default function NavTabs ({ currentPage, handlePageChange }) {
             </a>
           </li>
         </ul>
+      </div>
       </>
     );
   }

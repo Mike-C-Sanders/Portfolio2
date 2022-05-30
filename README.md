@@ -58,3 +58,4 @@ Email: mike@mikecsanders.com
 1. [React](https://reactjs.org/)
 2. [EmailJS](https://www.emailjs.com/docs/introduction/how-does-emailjs-work/)
 3. [React-Icons](https://react-icons.github.io/react-icons/)
+4. [npm Typical](https://www.npmjs.com/package/typical)
