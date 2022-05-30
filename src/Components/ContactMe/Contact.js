@@ -62,32 +62,44 @@ export default function Contact() {
         <h2>Contact Me</h2>
         <p>If you'd like to work with me or are interested in learning more about my background for a specific role, please send me a note through this form. </p>
         <form className="form">
-            <label for="fullName">Your Name:</label>
-            <input
-                value={fullName}
-                name="fullName"
+            <div className="form-group">
+                
+                <label for="fullName">Your Name:</label>
+                <input
+                    value={fullName}
+                    name="fullName"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Full Name"
+                    className="form-control"
+                />
+            </div>
+            <div className="form-group">
+
+                <label for="email">Your Email:</label>
+                <input
+                value={email}
+                name="email"
+                onChange={handleInputChange}
+                type="email"
+                placeholder="email"
+                className="form-control"
+                />
+            </div>
+            <div className="form-group">
+
+                <label for="message">Message:</label>
+                <input
+                value={message}
+                name="message"
                 onChange={handleInputChange}
                 type="text"
-                placeholder="Full Name"
-            />
-            <label for="email">Your Email:</label>
-            <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-            />
-            <label for="message">Message:</label>
-            <input
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Your message goes here."
-            />
+                placeholder="Your message goes here."
+                className="form-control"
+                />
+            </div>
 
-            <button type="button" onClick={handleFormSubmit}>
+            <button className="btn primary-btn" type="button" onClick={handleFormSubmit}>
             Submit
             </button>
         </form>

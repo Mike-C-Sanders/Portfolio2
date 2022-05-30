@@ -6,6 +6,7 @@ import {FaGithub, FaEnvelope, FaLinkedin} from 'react-icons/fa';
 export default function About () {
     return (
         <>
+        <div className="align-bottom">
             <p>Mike Sanders  2022</p>
             <div className='my-links'>
                         
@@ -21,6 +22,7 @@ export default function About () {
                 </a>
                         
                 </div>
+        </div>
         </>
     )
 }
